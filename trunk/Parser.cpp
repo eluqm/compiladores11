@@ -18,10 +18,352 @@ void Parser::llenarTabla2()
 	tableG[2][1]=1;
 	//tableG[3]=;
 	//tableG[4]=;
-	for(int i=0;i<10;i++)
-		for(int j=0;j<5;j++)
+
+
+	/*llenado por heverd y luis*/
+
+	for(int i=0;i<220;i++)
+		for(int j=0;j<25;j++)
 			for(int k=0;k<2;k++)
 				table[i][j][k]=ERROR_SYNTAX;
+	
+	//empezando desde fila 0
+	
+	tableLR[0][REGION][0]=Des;
+	tableLR[0][REGION][1]=3;
+
+	tableLR[1][DOLARFIN][0]=ACCEPT;
+	
+	tableLR[2][CLASS][0]=Des;
+	tableLR[2][CLASS][1]=5;
+
+	tableLR[3][ID][0]=Des;
+	tableLR[3][ID][1]=6;
+
+	tableLR[4][DOLARFIN][0]=Red;
+	tableLR[4][DOLARFIN][1]=2;
+
+	tableLR[5][ID][0]=Des;
+	tableLR[5][ID][1]=7;
+
+	tableLR[6][PUNTOYCOMA][0]=Red;
+	tableLR[6][PUNTOYCOMA][1]=5;
+	tableLR[6][COMA][0]=Des;
+	tableLR[6][COMA][1]=9;
+
+	tableLR[7][LLAVE_A][0]=Des;
+	tableLR[7][LLAVE_A][1]=10;
+
+	tableLR[8][PUNTOYCOMA][0]=Des;
+	tableLR[8][PUNTOYCOMA][1]=11;
+
+	tableLR[9][ID][0]=Des;
+	tableLR[9][ID][1]=12;
+
+	tableLR[10][ID][0]=Red;
+	tableLR[10][ID][1]=9;
+	tableLR[10][DOUBLE][0]=Red;
+	tableLR[10][DOUBLE][1]=9;
+	tableLR[10][VOID][0]=Red;
+	tableLR[10][VOID][1]=9;
+	tableLR[10][LLAVE_C][0]=Red;
+	tableLR[10][LLAVE_C][1]=9;
+
+	tableLR[11][CLASS][0]=Red;
+	tableLR[11][CLASS][1]=3;
+	tableLR[11][DOLARFIN][0]=Red;
+	tableLR[11][DOLARFIN][1]=3;
+
+	tableLR[12][PUNTOYCOMA][0]=Red;
+	tableLR[12][PUNTOYCOMA][1]=5;
+	tableLR[12][COMA][0]=Des;
+	tableLR[12][COMA][1]=3;
+
+	tableLR[13][ID][0]=Des;
+	tableLR[13][ID][1]=17;
+	tableLR[13][DOUBLE][0]=Des;
+	tableLR[13][DOUBLE][1]=18;
+	tableLR[13][VOID][0]=Des;
+	tableLR[13][VOID][1]=19;
+	tableLR[13][LLAVE_C][0]=Red;
+	tableLR[13][LLAVE_C][1]=14;
+
+	tableLR[14][PUNTOYCOMA][0]=Red;
+	tableLR[14][PUNTOYCOMA][1]=4;
+
+	tableLR[15][LLAVE_C][0]=Des;
+	tableLR[15][LLAVE_C][1]=20;
+
+	tableLR[16][ID][0]=Des;
+	tableLR[16][ID][1]=21;
+
+	tableLR[17][ID][0]=Red;
+	tableLR[17][ID][1]=10;
+
+	tableLR[18][ID][0]=Red;
+	tableLR[18][ID][1]=11;
+
+	tableLR[19][ID][0]=Red;
+	tableLR[19][ID][1]=12;
+
+	tableLR[20][CLASS][0]=Des;
+	tableLR[20][CLASS][1]=5;
+	tableLR[20][DOLARFIN][0]=Red;
+	tableLR[20][DOLARFIN][1]=7;
+
+	tableLR[21][IN][0]=Des;
+	tableLR[21][IN][1]=23;
+	tableLR[21][PAR_A][0]=Des;
+	tableLR[21][PAR_A][1]=24;
+
+	tableLR[22][DOLARFIN][0]=Red;
+	tableLR[22][DOLARFIN][1]=6;
+
+	tableLR[23][ID][0]=Des;
+	tableLR[23][ID][1]=25;
+
+	tableLR[24][ID][0]=Des;
+	tableLR[24][ID][1]=17;
+	tableLR[24][DOUBLE][0]=Des;
+	tableLR[24][DOUBLE][1]=18;
+	tableLR[24][VOID][0]=Des;
+	tableLR[24][VOID][1]=19;
+
+	tableLR[25][PUNTOYCOMA][0]=Des;
+	tableLR[25][PUNTOYCOMA][1]=27;
+
+	tableLR[26][ID][0]=Des;
+	tableLR[26][ID][1]=28;
+
+	tableLR[27][ID][0]=Red;
+	tableLR[27][ID][1]=8;
+	tableLR[27][DOUBLE][0]=Red;
+	tableLR[27][DOUBLE][1]=8;
+	tableLR[27][VOID][0]=Red;
+	tableLR[27][VOID][1]=8;
+	tableLR[27][LLAVE_C][0]=Red;
+	tableLR[27][LLAVE_C][1]=8;
+
+	tableLR[28][COMA][0]=Des;
+	tableLR[28][COMA][1]=30;
+	tableLR[28][PAR_C][0]=Red;
+	tableLR[28][PAR_C][1]=16;
+
+	tableLR[29][PAR_C][0]=Des;
+	tableLR[29][PAR_C][1]=31;
+
+	tableLR[30][ID][0]=Des;
+	tableLR[30][ID][1]=17;
+	tableLR[30][DOUBLE][0]=Des;
+	tableLR[30][DOUBLE][1]=18;
+	tableLR[30][VOID][0]=Des;
+	tableLR[30][VOID][1]=19;
+
+	tableLR[31][READS][0]=Des;
+	tableLR[31][READS][1]=34;
+	tableLR[31][WRITES][0]=Des;
+	tableLR[31][WRITES][1]=35;
+	tableLR[31][LLAVE_A][0]=Red;
+	tableLR[31][LLAVE_A][1]=19;
+
+	tableLR[32][ID][0]=Des;
+	tableLR[32][ID][1]=36;
+
+	tableLR[33][LLAVE_A][0]=Des;
+	tableLR[33][LLAVE_A][1]=37;
+
+	tableLR[34][ID][0]=Des;
+	tableLR[34][ID][1]=38;
+
+	tableLR[35][ID][0]=Des;
+	tableLR[35][ID][1]=39;
+
+	tableLR[36][PAR_C][0]=Red;
+	tableLR[36][PAR_C][1]=15;
+
+	tableLR[37][ID][0]=Des;
+	tableLR[37][ID][1]=46;
+	tableLR[37][THIS][0]=Des;
+	tableLR[37][THIS][1]=47;
+	tableLR[37][NEW][0]=Des;
+	tableLR[37][NEW][1]=43;
+	tableLR[37][LET][0]=Des;
+	tableLR[37][LET][1]=41;
+	tableLR[37][SEQ][0]=Des;
+	tableLR[37][SEQ][1]=44;
+	tableLR[37][COBEGIN][0]=Des;
+	tableLR[37][COBEGIN][1]=45;
+
+	tableLR[38][COMA][0]=Des;
+	tableLR[38][COMA][1]=49;
+	tableLR[38][LLAVE_A][0]=Red;
+	tableLR[38][LLAVE_A][1]=5;
+
+	tableLR[39][LLAVE_A][0]=Red;
+	tableLR[39][LLAVE_A][1]=5;
+
+	tableLR[40][ID][0]=Des;
+	tableLR[40][ID][1]=46;
+	tableLR[40][THIS][0]=Des;
+	tableLR[40][THIS][1]=47;
+	tableLR[40][NEW][0]=Des;
+	tableLR[40][NEW][1]=43;
+	tableLR[40][LET][0]=Des;
+	tableLR[40][LET][1]=41;
+	tableLR[40][SEQ][0]=Des;
+	tableLR[40][SEQ][1]=44;
+	tableLR[40][COBEGIN][0]=Des;
+	tableLR[40][COBEGIN][1]=45;
+	tableLR[40][LLAVE_C][0]=Red;
+	tableLR[40][LLAVE_C][1]=31;
+
+	tableLR[41][ID][0]=Des;
+	tableLR[41][ID][1]=53;
+
+	tableLR[42][PUNTOYCOMA][0]=Des;
+	tableLR[42][PUNTOYCOMA][1]=56;
+	tableLR[42][PUNTO][0]=Des;
+	tableLR[42][PUNTO][1]=54;
+	tableLR[42][COR_A][0]=Des;
+	tableLR[42][COR_A][1]=55;
+
+	tableLR[43][ID][0]=Des;
+	tableLR[43][ID][1]=58;
+	tableLR[43][DOUBLE][0]=Des;
+	tableLR[43][DOUBLE][1]=59;
+	tableLR[43][VOID][0]=Des;
+	tableLR[43][VOID][1]=60;
+
+	tableLR[44][PAR_A][0]=Des;
+	tableLR[44][PAR_A][1]=61;
+
+	tableLR[45][LLAVE_A][0]=Des;
+	tableLR[45][LLAVE_A][1]=46;
+
+	tableLR[46][PUNTOYCOMA][0]=Red;
+	tableLR[46][PUNTOYCOMA][1]=32;
+	tableLR[46][PUNTO][0]=Red;
+	tableLR[46][PUNTO][1]=32;
+	tableLR[46][COR_A][0]=Red;
+	tableLR[46][COR_A][1]=32;
+
+	tableLR[47][PUNTOYCOMA][0]=Red;
+	tableLR[44][PUNTOYCOMA][1]=33;
+	tableLR[47][PUNTO][0]=Red;
+	tableLR[47][PUNTO][1]=33;
+	tableLR[47][COR_A][0]=Red;
+	tableLR[47][COR_A][1]=33;
+
+	tableLR[48][LLAVE_A][0]=Red;
+	tableLR[48][LLAVE_A][1]=17;
+
+	tableLR[49][ID][0]=Des;
+	tableLR[49][ID][1]=63;
+
+	tableLR[50][LLAVE_A][0]=Red;
+	tableLR[50][LLAVE_A][1]=18;
+
+	tableLR[51][LLAVE_C][0]=Des;
+	tableLR[51][LLAVE_C][1]=64;
+
+	tableLR[52][ID][0]=Des;
+	tableLR[52][ID][1]=46;
+	tableLR[52][THIS][0]=Des;
+	tableLR[52][THIS][1]=47;
+	tableLR[52][NEW][0]=Des;
+	tableLR[52][NEW][1]=43;
+	tableLR[52][LET][0]=Des;
+	tableLR[52][LET][1]=41;
+	tableLR[52][SEQ][0]=Des;
+	tableLR[52][SEQ][1]=44;
+	tableLR[52][COBEGIN][0]=Des;
+	tableLR[52][COBEGIN][1]=45;
+	tableLR[52][LLAVE_C][0]=Red;
+	tableLR[52][LLAVE_C][1]=31;
+
+	tableLR[53][IGUAL][0]=Des;
+	tableLR[53][IGUAL][1]=66;
+
+	tableLR[54][ID][0]=Des;
+	tableLR[54][ID][1]=67;
+
+	tableLR[55][NUM][0]=Des;
+	tableLR[55][NUM][1]=68;
+
+	tableLR[56][ID][0]=Red;
+	tableLR[56][ID][1]=27;
+	tableLR[56][THIS][0]=Red;
+	tableLR[56][THIS][1]=27;
+	tableLR[56][NEW][0]=Red;
+	tableLR[56][NEW][1]=27;
+	tableLR[56][LET][0]=Red;
+	tableLR[56][LET][1]=27;
+	tableLR[56][SEQ][0]=Red;
+	tableLR[56][SEQ][1]=27;
+	tableLR[56][COBEGIN][0]=Red;
+	tableLR[56][COBEGIN][1]=27;
+	tableLR[56][LLAVE_C][0]=Red;
+	tableLR[56][LLAVE_C][1]=27;
+
+	tableLR[57][PUNTOYCOMA][0]=Des;
+	tableLR[57][PUNTOYCOMA][1]=69;
+
+	tableLR[58][PUNTOYCOMA][0]=Red;
+	tableLR[58][PUNTOYCOMA][1]=10;
+
+	tableLR[59][PUNTOYCOMA][0]=Red;
+	tableLR[59][PUNTOYCOMA][1]=11;
+
+	tableLR[60][PUNTOYCOMA][0]=Red;
+	tableLR[60][PUNTOYCOMA][1]=12;
+
+	tableLR[61][ID][0]=Des;
+	tableLR[61][ID][1]=46;
+	tableLR[61][THIS][0]=Des;
+	tableLR[61][THIS][1]=47;
+	tableLR[61][NEW][0]=Des;
+	tableLR[61][NEW][1]=73;
+	tableLR[61][LET][0]=Des;
+	tableLR[61][LET][1]=71;
+	tableLR[61][SEQ][0]=Des;
+	tableLR[61][SEQ][1]=74;
+	tableLR[61][COBEGIN][0]=Des;
+	tableLR[61][COBEGIN][1]=75;
+	
+	tableLR[62][ID][0]=Des;
+	tableLR[62][ID][1]=46;
+	tableLR[62][THIS][0]=Des;
+	tableLR[62][THIS][1]=47;
+	tableLR[62][NEW][0]=Des;
+	tableLR[62][NEW][1]=43;
+	tableLR[62][LET][0]=Des;
+	tableLR[62][LET][1]=41;
+	tableLR[62][SEQ][0]=Des;
+	tableLR[62][SEQ][1]=44;
+	tableLR[62][COBEGIN][0]=Des;
+	tableLR[62][COBEGIN][1]=45;
+	
+	tableLR[66][ID][0]=Des;
+	tableLR[66][ID][1]=46;
+	tableLR[66][THIS][0]=Des;
+	tableLR[52][THIS][1]=47;
+	tableLR[52][NEW][0]=Des;
+	tableLR[52][NEW][1]=43;
+	tableLR[52][LET][0]=Des;
+	tableLR[52][LET][1]=41;
+	tableLR[52][SEQ][0]=Des;
+	tableLR[52][SEQ][1]=44;
+	tableLR[52][COBEGIN][0]=Des;
+	tableLR[52][COBEGIN][1]=45;
+	tableLR[52][LLAVE_C][0]=Red;
+	tableLR[52][LLAVE_C][1]=31;
+
+
+
+
+
+
+	//terminando hasta fila 108
 	
 	tableLR[0][C_T][0]=Des;  // 0 -> C_T= D3
 	tableLR[0][C_T][1]=3;
@@ -47,8 +389,9 @@ void Parser::llenarTabla2()
 	tableLR[2][D_T][1]=7;
 	tableLR[2][C_N][0]=5;
 	
-	tableLR[3][C_T][0]=Des;
-	tableLR[3][C_T][1]=3;
+	tableLR[109][PUNTOYCOMA][0]=Des;
+	tableLR[109][PUNTOYCOMA][1]=138;
+
 	tableLR[3][D_T][0]=Des;
 	tableLR[3][D_T][1]=4;
 	tableLR[3][C_N][0]=8;

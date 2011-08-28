@@ -1,32 +1,48 @@
-﻿Build started 19/08/2011 05:18:12 p.m..
-     1>Project "E:\5to\COMPILADORES\compiladores\compiladores\compiladores.vcxproj" on node 2 (build target(s)).
+﻿Build started 28/08/2011 02:14:29 p.m..
+     1>Project "F:\Compiladores\trunk\compiladores.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\compiladores.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Parser.cpp scanner.cpp
+         scanner.cpp
+     1>f:\compiladores\trunk\scanner.cpp(76): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\compiladores\trunk\symboltable.h(81): warning C4018: '<' : signed/unsigned mismatch
+                 f:\compiladores\trunk\symboltable.h(79) : while compiling class template member function 'void SymbolTable<T>::printTable(void)'
+                 with
+                 [
+                     T=TokenAttrib
+                 ]
+                 f:\compiladores\trunk\scanner.h(26) : see reference to class template instantiation 'SymbolTable<T>' being compiled
+                 with
+                 [
+                     T=TokenAttrib
+                 ]
+         Parser.cpp
          main.cpp
+         Generating Code...
+     1>f:\compiladores\trunk\parser.cpp(2829): warning C4715: 'Parser::get_NT_T' : not all control paths return a value
        ManifestResourceCompile:
-         All outputs are up-to-date.
+         C:\Archivos de programa\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\compiladores.exe.embed.manifest.res" Debug\compiladores_manifest.rc 
        Link:
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\5to\COMPILADORES\compiladores\Debug\compiladores.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\compiladores.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\5to\COMPILADORES\compiladores\Debug\compiladores.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\5to\COMPILADORES\compiladores\Debug\compiladores.lib" /MACHINE:X86 Debug\compiladores.exe.embed.manifest.res
+         C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Compiladores\trunk\Debug\compiladores.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\compiladores.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Compiladores\trunk\Debug\compiladores.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Compiladores\trunk\Debug\compiladores.lib" /MACHINE:X86 Debug\compiladores.exe.embed.manifest.res
          Debug\main.obj
          Debug\Parser.obj
          Debug\scanner.obj /FORCE:MULTIPLE 
      1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
      1>Parser.obj : warning LNK4006: "public: void __thiscall TokenAttrib::imprimir_Tok(void)" (?imprimir_Tok@TokenAttrib@@QAEXXZ) already defined in main.obj; second definition ignored
      1>scanner.obj : warning LNK4006: "public: void __thiscall TokenAttrib::imprimir_Tok(void)" (?imprimir_Tok@TokenAttrib@@QAEXXZ) already defined in main.obj; second definition ignored
-     1>E:\5to\COMPILADORES\compiladores\Debug\compiladores.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+     1>F:\Compiladores\trunk\Debug\compiladores.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
        Manifest:
-         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\compiladores.exe.embed.manifest" /manifest Debug\compiladores.exe.intermediate.manifest
+         C:\Archivos de programa\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\compiladores.exe.embed.manifest" /manifest Debug\compiladores.exe.intermediate.manifest
          All outputs are up-to-date.
        LinkEmbedManifest:
          All outputs are up-to-date.
-         compiladores.vcxproj -> E:\5to\COMPILADORES\compiladores\Debug\compiladores.exe
+         compiladores.vcxproj -> F:\Compiladores\trunk\Debug\compiladores.exe
        FinalizeBuildStatus:
          Deleting file "Debug\compiladores.unsuccessfulbuild".
          Touching "Debug\compiladores.lastbuildstate".
-     1>Done Building Project "E:\5to\COMPILADORES\compiladores\compiladores\compiladores.vcxproj" (build target(s)).
+     1>Done Building Project "F:\Compiladores\trunk\compiladores.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.09
+Time Elapsed 00:00:13
