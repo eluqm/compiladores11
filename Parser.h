@@ -48,7 +48,7 @@ class Parser{
   		ofstream OutErrorSyntax;//codigo fuente
 		Scanner* Scan;//Scanner
 		int table[70][70][9];//tabla para el parsing
-		int tableLR[10][5][2];//tabla para lr(1) primitivo
+		int tableLR[220][25][2];//tabla para lr(1) primitivo
 		int tableG[3][2];
 		Token currentToken;//token actual
         vector<Token> tokens;// conjunto de tokens
