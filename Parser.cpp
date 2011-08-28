@@ -424,6 +424,333 @@ void Parser::llenarTabla2()
 	
 	tableLR[9][DOLARFIN][0]=Red;
 	tableLR[9][DOLARFIN][1]=2; 
+
+
+	//Empezando desde la fila 109
+	tableLR[109][PUNTOYCOMA][0]=Des;
+	tableLR[109][PUNTOYCOMA][1]=138;
+
+	tableLR[110][PUNTOYCOMA][0]=Red;
+	tableLR[110][PUNTOYCOMA][1]=32;
+
+	tableLR[111][PUNTOYCOMA][0]=Red;
+	tableLR[111][PUNTOYCOMA][1]=33;
+
+	tableLR[112][PAR_C][0]=Des;
+	tableLR[112][PAR_C][1]=139;
+
+	tableLR[113][PAR_C][0]=Red;
+	tableLR[113][PAR_C][1]=32;
+
+	tableLR[114][PAR_C][0]=Red;
+	tableLR[114][PAR_C][1]=33;
+
+	tableLR[115][ID][0]=Des;
+	tableLR[115][ID][1]=110;
+	tableLR[115][THIS][0]=Des;
+	tableLR[115][THIS][1]=111;
+
+	tableLR[116][ID][0]=Red;
+	tableLR[116][ID][1]=24;
+	tableLR[116][THIS][0]=Red;
+	tableLR[116][THIS][1]=24;
+	tableLR[116][NEW][0]=Red;
+	tableLR[116][NEW][1]=24;
+	tableLR[116][LET][0]=Red;
+	tableLR[116][LET][1]=24;
+	tableLR[116][SEQ][0]=Red;
+	tableLR[116][SEQ][1]=24;
+	tableLR[116][COBEGIN][0]=Red;
+	tableLR[116][COBEGIN][1]=24;
+	tableLR[116][LLAVE_C][0]=Red;
+	tableLR[116][LLAVE_C][1]=24;
+
+	tableLR[117][ID][0]=Red;
+	tableLR[117][ID][1]=28;
+	tableLR[117][THIS][0]=Red;
+	tableLR[117][THIS][1]=28;
+	tableLR[117][NEW][0]=Red;
+	tableLR[117][NEW][1]=28;
+	tableLR[117][LET][0]=Red;
+	tableLR[117][LET][1]=28;
+	tableLR[117][SEQ][0]=Red;
+	tableLR[117][SEQ][1]=28;
+	tableLR[117][COBEGIN][0]=Red;
+	tableLR[117][COBEGIN][1]=28;
+	tableLR[117][LLAVE_C][0]=Red;
+	tableLR[117][LLAVE_C][1]=28;
+
+	tableLR[118][PAR_C][0]=Red;
+	tableLR[118][PAR_C][1]=30;
+
+	tableLR[119][ID][0]=Des;
+	tableLR[119][ID][1]=46;
+	tableLR[119][THIS][0]=Des;
+	tableLR[119][THIS][1]=47;
+	tableLR[119][NEW][0]=Des;
+	tableLR[119][NEW][1]=83;
+	tableLR[119][LET][0]=Des;
+	tableLR[119][LET][1]=81;
+	tableLR[119][SEQ][0]=Des;
+	tableLR[119][SEQ][1]=84;
+	tableLR[119][COBEGIN][0]=Des;
+	tableLR[119][COBEGIN][1]=85;
+
+	tableLR[120][PUNTOYCOMA][0]=Des;
+	tableLR[120][PUNTOYCOMA][1]=142;
+	tableLR[120][PAR_A][0]=Des;
+	tableLR[120][PAR_A][1]=144;
+	tableLR[120][IGUAL][0]=Des;
+	tableLR[120][IGUAL][1]=143;
+
+	tableLR[121][COR_C][0]=Des;
+	tableLR[121][COR_C][1]=145;
+
+	tableLR[122][ID][0]=Red;
+	tableLR[122][ID][1]=26;
+	tableLR[122][THIS][0]=Red;
+	tableLR[122][THIS][1]=26;
+	tableLR[122][NEW][0]=Red;
+	tableLR[122][NEW][1]=26;
+	tableLR[122][LET][0]=Red;
+	tableLR[122][LET][1]=26;
+	tableLR[122][SEQ][0]=Red;
+	tableLR[122][SEQ][1]=26;
+	tableLR[122][COBEGIN][0]=Red;
+	tableLR[122][COBEGIN][1]=26;
+	tableLR[122][PAR_C][0]=Red;
+	tableLR[122][PAR_C][1]=26;
+
+	tableLR[123][ID][0]=Des;
+	tableLR[123][ID][1]=46;
+	tableLR[123][THIS][0]=Des;
+	tableLR[123][THIS][1]=47;
+	tableLR[123][NEW][0]=Des;
+	tableLR[123][NEW][1]=73;
+	tableLR[123][LET][0]=Des;
+	tableLR[123][LET][1]=71;
+	tableLR[123][SEQ][0]=Des;
+	tableLR[123][SEQ][1]=74;
+	tableLR[123][COBEGIN][0]=Des;
+	tableLR[123][COBEGIN][1]=75;
+	tableLR[123][PAR_C][0]=Red;
+	tableLR[123][PAR_C][1]=31;
+
+	tableLR[124][ID][0]=Des;
+	tableLR[124][ID][1]=46;
+	tableLR[124][THIS][0]=Des;
+	tableLR[124][THIS][1]=47;
+	tableLR[124][NEW][0]=Des;
+	tableLR[124][NEW][1]=43;
+	tableLR[124][LET][0]=Des;
+	tableLR[124][LET][1]=41;
+	tableLR[124][SEQ][0]=Des;
+	tableLR[124][SEQ][1]=44;
+	tableLR[124][COBEGIN][0]=Des;
+	tableLR[124][COBEGIN][1]=45;
+	tableLR[124][LLAVE_C][0]=Red;
+	tableLR[124][LLAVE_C][1]=31;
+
+    tableLR[125][ID][0]=Red;
+	tableLR[125][ID][1]=29;
+	tableLR[125][THIS][0]=Red;
+	tableLR[125][THIS][1]=29;
+	tableLR[125][NEW][0]=Red;
+	tableLR[125][NEW][1]=29;
+	tableLR[125][LET][0]=Red;
+	tableLR[125][LET][1]=29;
+	tableLR[125][SEQ][0]=Red;
+	tableLR[125][SEQ][1]=29;
+	tableLR[125][COBEGIN][0]=Red;
+	tableLR[125][COBEGIN][1]=29;
+	tableLR[125][LLAVE_C][0]=Red;
+	tableLR[125][LLAVE_C][1]=29;
+
+	tableLR[126][PUNTOYCOMA][0]=Des;
+	tableLR[126][PUNTOYCOMA][1]=148;
+
+	tableLR[127][ID][0]=Des;
+	tableLR[127][ID][1]=149;
+
+	tableLR[128][PUNTOYCOMA][0]=Des;
+	tableLR[128][PUNTOYCOMA][1]=152;
+	tableLR[128][PUNTO][0]=Des;
+	tableLR[128][PUNTO][1]=150;
+	tableLR[128][COR_A][0]=Des;
+	tableLR[128][COR_A][1]=151;
+
+	tableLR[129][ID][0]=Des;
+	tableLR[129][ID][1]=58;
+	tableLR[129][DOUBLE][0]=Des;
+	tableLR[129][DOUBLE][1]=59;
+	tableLR[129][VOID][0]=Des;
+	tableLR[129][VOID][1]=60;
+
+	tableLR[130][PAR_A][0]=Des;
+	tableLR[130][PAR_A][1]=154;
+
+	tableLR[131][LLAVE_A][0]=Des;
+	tableLR[131][LLAVE_A][1]=155;
+
+	tableLR[132][ID][0]=Des;
+	tableLR[132][ID][1]=46;
+	tableLR[132][THIS][0]=Des;
+	tableLR[132][THIS][1]=47;
+	tableLR[132][NEW][0]=Des;
+	tableLR[132][NEW][1]=83;
+	tableLR[132][LET][0]=Des;
+	tableLR[132][LET][1]=81;
+	tableLR[132][SEQ][0]=Des;
+	tableLR[132][SEQ][1]=84;
+	tableLR[132][COBEGIN][0]=Des;
+	tableLR[132][COBEGIN][1]=85;
+
+	tableLR[133][PUNTOYCOMA][0]=Des;
+	tableLR[133][PUNTOYCOMA][1]=157;
+	tableLR[133][PAR_A][0]=Des;
+	tableLR[133][PAR_A][1]=159;
+	tableLR[133][IGUAL][0]=Des;
+	tableLR[133][IGUAL][1]=158;
+
+	tableLR[134][COR_C][0]=Des;
+	tableLR[134][COR_C][1]=160;
+
+	tableLR[135][IN][0]=Red;
+	tableLR[135][IN][1]=26;
+
+	tableLR[136][ID][0]=Des;
+	tableLR[136][ID][1]=46;
+	tableLR[136][THIS][0]=Des;
+	tableLR[136][THIS][1]=47;
+	tableLR[136][NEW][0]=Des;
+	tableLR[136][NEW][1]=73;
+	tableLR[136][LET][0]=Des;
+	tableLR[136][LET][1]=71;
+	tableLR[136][SEQ][0]=Des;
+	tableLR[136][SEQ][1]=74;
+	tableLR[136][COBEGIN][0]=Des;
+	tableLR[136][COBEGIN][1]=75;
+	tableLR[136][PAR_C][0]=Red;
+	tableLR[136][PAR_C][1]=31;
+
+	tableLR[137][ID][0]=Des;
+	tableLR[137][ID][1]=46;
+	tableLR[137][THIS][0]=Des;
+	tableLR[137][THIS][1]=47;
+	tableLR[137][NEW][0]=Des;
+	tableLR[137][NEW][1]=73;
+	tableLR[137][LET][0]=Des;
+	tableLR[137][LET][1]=41;
+	tableLR[137][SEQ][0]=Des;
+	tableLR[137][SEQ][1]=44;
+	tableLR[137][COBEGIN][0]=Des;
+	tableLR[137][COBEGIN][1]=45;
+	tableLR[137][LLAVE_C][0]=Red;
+	tableLR[137][LLAVE_C][1]=31;
+
+	tableLR[138][ID][0]=Red;
+	tableLR[138][ID][1]=32;
+	tableLR[138][THIS][0]=Red;
+	tableLR[138][THIS][1]=32;
+	tableLR[138][NEW][0]=Red;
+	tableLR[138][NEW][1]=32;
+	tableLR[138][LET][0]=Red;
+	tableLR[138][LET][1]=32;
+	tableLR[138][SEQ][0]=Red;
+	tableLR[138][SEQ][1]=32;
+	tableLR[138][COBEGIN][0]=Red;
+	tableLR[138][COBEGIN][1]=32;
+	tableLR[138][LLAVE_C][0]=Red;
+	tableLR[138][LLAVE_C][1]=32;
+
+	tableLR[139][PUNTOYCOMA][0]=Des;
+	tableLR[139][PUNTOYCOMA][1]=163;
+
+	tableLR[140][PUNTOYCOMA][0]=Des;
+	tableLR[140][PUNTOYCOMA][1]=164;
+
+	tableLR[141][IN][0]=Des;
+	tableLR[141][IN][1]=165;
+
+	tableLR[142][ID][0]=Red;
+	tableLR[142][ID][1]=21;
+	tableLR[142][THIS][0]=Red;
+	tableLR[142][THIS][1]=21;
+	tableLR[142][NEW][0]=Red;
+	tableLR[142][NEW][1]=21;
+	tableLR[142][LET][0]=Red;
+	tableLR[142][LET][1]=21;
+	tableLR[142][SEQ][0]=Red;
+	tableLR[142][SEQ][1]=21;
+	tableLR[142][COBEGIN][0]=Red;
+	tableLR[142][COBEGIN][1]=21;
+	tableLR[142][PAR_C][0]=Red;
+	tableLR[142][PAR_C][1]=21;
+
+	tableLR[143][ID][0]=Des;
+	tableLR[143][ID][1]=110;
+	tableLR[143][THIS][0]=Des;
+	tableLR[143][THIS][1]=111;
+
+	tableLR[144][ID][0]=Des;
+	tableLR[144][ID][1]=113;
+	tableLR[144][THIS][0]=Des;
+	tableLR[144][THIS][1]=114;
+
+	tableLR[145][PUNTOYCOMA][0]=Des;
+	tableLR[145][PUNTOYCOMA][1]=169;
+	tableLR[145][IGUAL][0]=Des;
+	tableLR[145][IGUAL][1]=168;
+
+	tableLR[146][PAR_C][0]=Des;
+	tableLR[146][PAR_C][1]=170;
+
+	tableLR[147][LLAVE_C][0]=Des;
+	tableLR[147][LLAVE_C][1]=171;
+
+	tableLR[148][ID][0]=Red;
+	tableLR[148][ID][1]=20;
+	tableLR[148][THIS][0]=Red;
+	tableLR[148][THIS][1]=20;
+	tableLR[148][NEW][0]=Red;
+	tableLR[148][NEW][1]=20;
+	tableLR[148][LET][0]=Red;
+	tableLR[148][LET][1]=20;
+	tableLR[148][SEQ][0]=Red;
+	tableLR[148][SEQ][1]=20;
+	tableLR[148][COBEGIN][0]=Red;
+	tableLR[148][COBEGIN][1]=20;
+	tableLR[148][LLAVE_C][0]=Red;
+	tableLR[148][LLAVE_C][1]=20;
+
+	tableLR[149][IGUAL][0]=Des;
+	tableLR[149][IGUAL][1]=172;
+
+	tableLR[150][ID][0]=Des;
+	tableLR[150][ID][1]=173;
+
+	tableLR[151][NUM][0]=Des;
+	tableLR[151][NUM][1]=174;
+
+	tableLR[152][PUNTOYCOMA][0]=Red;
+	tableLR[152][PUNTOYCOMA][1]=27;
+
+	tableLR[153][PUNTOYCOMA][0]=Des;
+	tableLR[153][PUNTOYCOMA][1]=175;
+
+	tableLR[154][ID][0]=Des;
+	tableLR[154][ID][1]=46;
+	tableLR[154][THIS][0]=Des;
+	tableLR[154][THIS][1]=47;
+	tableLR[154][NEW][0]=Des;
+	tableLR[154][NEW][1]=73;
+	tableLR[154][LET][0]=Des;
+	tableLR[154][LET][1]=71;
+	tableLR[154][SEQ][0]=Des;
+	tableLR[154][SEQ][1]=74;
+	tableLR[154][COBEGIN][0]=Des;
+	tableLR[154][COBEGIN][1]=75;
+
 	
 }
 
