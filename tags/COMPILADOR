@@ -1,0 +1,23 @@
+%token class region id in this new reads writes double void let num seq cobegin
+%%
+PROGRAMA : REGION CLASE ;
+REGION : region id MIDR ';' ;
+MIDR : ',' id MIDR |;
+CLASE : class id '{' FIELD METODO '}' CLASE| ;
+FIELD : FIELD TYPE id in id ';' | ;
+TYPE : id | double | void;
+METODO : TYPE id '(' TYPE  id MARG ')' EFECT '{' EXP MEXP '}' METODO |;
+MARG : ',' TYPE id |;
+EFECT : reads id MIDR | writes id MIDR| ;
+EXP : let id '=' EXP in EXP ';' |
+ VAR '.' id ';' |
+ VAR '.' id '=' VAR ';' | 
+ VAR '[' num ']' '=' VAR ';' |
+ VAR '[' num ']' ';' |
+ VAR '.' id '(' VAR ')' ';' |  
+ new TYPE ';'| 
+ VAR ';' |
+ seq '(' EXP MEXP ')'|
+ cobegin '{' EXP MEXP '}' ;
+MEXP : EXP MEXP | ;
+VAR :  id | this; 
