@@ -774,7 +774,7 @@ void Parser::llenarTabla2()
 	tableLR[124][LLAVE_C][0]=Red;
 	tableLR[124][LLAVE_C][1]=31;
 
-    	tableLR[125][ID][0]=Red;
+    tableLR[125][ID][0]=Red;
 	tableLR[125][ID][1]=29;
 	tableLR[125][THIS][0]=Red;
 	tableLR[125][THIS][1]=29;
