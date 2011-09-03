@@ -23,8 +23,7 @@ using namespace std;
 *  Conjunto de No Terminales necesarios para al Parsing*/
 
 
-
-typedef enum{P=72,PROGRAMA, REGION, MIDR, CLASE, FIELD, TYPE, METODO, MARG,
+typedef enum{P=26,PROGRAMA, REGION2, MIDR, CLASE, FIELD, TYPE, METODO, MARG,
                 EFECT, EXP, MEXP, VAR,C_N} NT_t;
 
 /**  Constante que indica un error de sintaxis*/
