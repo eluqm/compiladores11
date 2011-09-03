@@ -29,7 +29,7 @@ reser["C"]=C;
 reser["D"]=D;
 reser["++"]=INCREMENT;
 reser["while"]=WHILE;
-reser["region"]=REGION;
+//reser["region"]=REGION;
 reser["in"]=IN;
 reser["writes"]=WRITES;
 reser["cobegin"]=COBEGIN;
@@ -391,9 +391,9 @@ void Scanner::printToken2(Token_t token,string lexema){
 		case DOUBLE:
 			cout<<"DOUBLE"<<endl;
 			break;
-        case COMPLEJO:
-			cout<<"COMPLEJO\n";
-			break;
+        //case COMPLEJO:
+		//	cout<<"COMPLEJO\n";
+		//	break;
         case COR_A:
 			cout<<"COR_A\n";
 			break;
@@ -403,9 +403,9 @@ void Scanner::printToken2(Token_t token,string lexema){
 		case ENDFILE:
 			cout<<"ENDFILE\n";
 			break;
-        case PROCEDURE:
-            cout<<"PROCEDURE\n";
-            break;
+//        case PROCEDURE:
+  //          cout<<"PROCEDURE\n";
+   //         break;
 		case CLASS:
 			cout<<"CLASS"<<endl;
 			break;
@@ -418,12 +418,12 @@ void Scanner::printToken2(Token_t token,string lexema){
 		case VOID:
 			cout<<"VOID"<<endl;
 			break;
-		case C:
-			cout<<"C\n"<<endl;
-			break;
-		case D:
-			cout<<"D\n"<<endl;
-			break;
+//		case C:
+//			cout<<"C\n"<<endl;
+//			break;
+//		case D:
+//			cout<<"D\n"<<endl;
+//			break;
 		case WHILE:
 			cout<<"WHILE"<<endl;
 			break;
