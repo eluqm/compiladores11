@@ -3,6 +3,7 @@
 #include<map>
 #include"Scanner.h"
 #include"symbolTable.h"
+#include "globals.h"
 using namespace std;
 
 int main(int argc,char*argv[])
