@@ -10,8 +10,8 @@
 void Parser::llenarTabla2()
 {
 
-	tableG[0][0]=P;// tamaño del lado derecho de las gramaticas  S->CC tableG[0]= length(CC)
-	tableG[1][0]=C_N;// tamaño del lado derecho de las gramaticas  C->cC tableG[0]= length(cC)
+	tableG[0][0]=P;// tamaÃ±o del lado derecho de las gramaticas  S->CC tableG[0]= length(CC)
+	tableG[1][0]=C_N;// tamaÃ±o del lado derecho de las gramaticas  C->cC tableG[0]= length(cC)
 	tableG[2][0]=C_N;// .....
 	tableG[0][1]=2;
 	tableG[1][1]=2;
@@ -36,6 +36,8 @@ void Parser::llenarTabla2()
 
 	tableLR[2][CLASS][0]=Des;
 	tableLR[2][CLASS][1]=5;
+  tableLR[2][DOLARFIN][0]=Red;
+  tableLR[2][DOLARFIN][1]=7;
 
 	tableLR[3][ID][0]=Des;
 	tableLR[3][ID][1]=6;
@@ -77,7 +79,7 @@ void Parser::llenarTabla2()
 	tableLR[12][PUNTOYCOMA][0]=Red;
 	tableLR[12][PUNTOYCOMA][1]=5;
 	tableLR[12][COMA][0]=Des;
-	tableLR[12][COMA][1]=3;
+	tableLR[12][COMA][1]=9;
 
 	tableLR[13][ID][0]=Des;
 	tableLR[13][ID][1]=17;
@@ -199,6 +201,9 @@ void Parser::llenarTabla2()
 	tableLR[38][LLAVE_A][0]=Red;
 	tableLR[38][LLAVE_A][1]=5;
 
+
+	tableLR[39][COMA][0]=Des;
+	tableLR[39][COMA][1]=49;
 	tableLR[39][LLAVE_A][0]=Red;
 	tableLR[39][LLAVE_A][1]=5;
 
@@ -238,7 +243,7 @@ void Parser::llenarTabla2()
 	tableLR[44][PAR_A][1]=61;
 
 	tableLR[45][LLAVE_A][0]=Des;
-	tableLR[45][LLAVE_A][1]=46;
+	tableLR[45][LLAVE_A][1]=62;
 
 	tableLR[46][PUNTOYCOMA][0]=Red;
 	tableLR[46][PUNTOYCOMA][1]=32;
@@ -248,7 +253,7 @@ void Parser::llenarTabla2()
 	tableLR[46][COR_A][1]=32;
 
 	tableLR[47][PUNTOYCOMA][0]=Red;
-	tableLR[44][PUNTOYCOMA][1]=33;
+	tableLR[47][PUNTOYCOMA][1]=33;
 	tableLR[47][PUNTO][0]=Red;
 	tableLR[47][PUNTO][1]=33;
 	tableLR[47][COR_A][0]=Red;
@@ -511,7 +516,7 @@ void Parser::llenarTabla2()
 	tableLR[88][THIS][0]=Des;
 	tableLR[88][THIS][1]=114;
 
-    tableLR[89][PUNTOYCOMA][0]=Des;
+  tableLR[89][PUNTOYCOMA][0]=Des;
 	tableLR[89][PUNTOYCOMA][1]=116;
 	tableLR[89][IGUAL][0]=Des;
 	tableLR[89][IGUAL][1]=115;
@@ -519,7 +524,7 @@ void Parser::llenarTabla2()
 	tableLR[90][PAR_C][0]=Des;
 	tableLR[90][PAR_C][1]=117;
 
-    tableLR[91][ID][0]=Des;
+  tableLR[91][ID][0]=Des;
 	tableLR[91][ID][1]=46;
 	tableLR[91][THIS][0]=Des;
 	tableLR[91][THIS][1]=47;
@@ -537,13 +542,13 @@ void Parser::llenarTabla2()
 	tableLR[92][IGUAL][0]=Des;
 	tableLR[92][IGUAL][1]=119;
 
-    tableLR[93][ID][0]=Des;
+  tableLR[93][ID][0]=Des;
 	tableLR[93][ID][1]=120;
 
 	tableLR[94][NUM][0]=Des;
 	tableLR[94][NUM][1]=121;
 
-    tableLR[95][ID][0]=Red;
+  tableLR[95][ID][0]=Red;
 	tableLR[95][ID][1]=27;
 	tableLR[95][THIS][0]=Red;
 	tableLR[95][THIS][1]=27;
@@ -555,8 +560,8 @@ void Parser::llenarTabla2()
 	tableLR[95][SEQ][1]=27;
 	tableLR[95][COBEGIN][0]=Red;
 	tableLR[95][COBEGIN][1]=27;
-	tableLR[95][LLAVE_C][0]=Red;
-	tableLR[95][LLAVE_C][1]=27;
+	tableLR[95][PAR_C][0]=Red;
+	tableLR[95][PAR_C][1]=27;
 
 	tableLR[96][PUNTOYCOMA][0]=Des;
 	tableLR[96][PUNTOYCOMA][1]=122;
@@ -872,19 +877,19 @@ void Parser::llenarTabla2()
 	tableLR[137][LLAVE_C][1]=31;
 
 	tableLR[138][ID][0]=Red;
-	tableLR[138][ID][1]=32;
+	tableLR[138][ID][1]=22;
 	tableLR[138][THIS][0]=Red;
-	tableLR[138][THIS][1]=32;
+	tableLR[138][THIS][1]=22;
 	tableLR[138][NEW][0]=Red;
-	tableLR[138][NEW][1]=32;
+	tableLR[138][NEW][1]=22;
 	tableLR[138][LET][0]=Red;
-	tableLR[138][LET][1]=32;
+	tableLR[138][LET][1]=22;
 	tableLR[138][SEQ][0]=Red;
-	tableLR[138][SEQ][1]=32;
+	tableLR[138][SEQ][1]=22;
 	tableLR[138][COBEGIN][0]=Red;
-	tableLR[138][COBEGIN][1]=32;
+	tableLR[138][COBEGIN][1]=22;
 	tableLR[138][LLAVE_C][0]=Red;
-	tableLR[138][LLAVE_C][1]=32;
+	tableLR[138][LLAVE_C][1]=22;
 
 	tableLR[139][PUNTOYCOMA][0]=Des;
 	tableLR[139][PUNTOYCOMA][1]=163;
@@ -1226,8 +1231,8 @@ void Parser::llenarTabla2()
 	tableLR[188][PUNTOYCOMA][0]=Des;
 	tableLR[188][PUNTOYCOMA][1]=202;
 
-	tableLR[189][ID][0]=Des;
-	tableLR[189][ID][1]=203;
+	tableLR[189][IN][0]=Des;
+	tableLR[189][IN][1]=203;
 
 	tableLR[190][PUNTOYCOMA][0]=Red;
 	tableLR[190][PUNTOYCOMA][1]=21;
@@ -1356,7 +1361,7 @@ void Parser::llenarTabla2()
 	tableLR[213][PUNTOYCOMA][1]=217;
 
 	tableLR[214][PUNTOYCOMA][0]=Red;
-	tableLR[214][PUNTOYCOMA][1]=24;
+	tableLR[214][PUNTOYCOMA][1]=22;
 
 	tableLR[215][PUNTOYCOMA][0]=Des;
 	tableLR[215][PUNTOYCOMA][1]=218;
